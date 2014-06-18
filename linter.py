@@ -13,7 +13,7 @@
 from SublimeLinter.lint import Linter, util
 
 
-class SummitLua(Linter):
+class SummitLinter(Linter):
     """Provides an interface to luacheck for the SummitEditor syntax."""
     syntax = 'summit'
     tempfile_suffix = 'lua'
@@ -52,4 +52,5 @@ class SummitLua(Linter):
             args[index + 1:index + 2] = vars
         except ValueError:
             pass
+            
         return args
