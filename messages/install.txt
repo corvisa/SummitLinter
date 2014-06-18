@@ -1,0 +1,10 @@
+SublimeLinter-SummitLua
+-------------------------------
+This linter plugin for SublimeLinter provides an interface to luacheck and SummitEditor.
+
+** IMPORTANT! **
+
+Before this plugin will activate, you *must*
+follow the installation instructions here:
+
+https://github.com/corvisacloud/SublimeLinter-SummitLua
