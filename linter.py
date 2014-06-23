@@ -30,7 +30,6 @@ class SummitLinter(Linter):
     def build_args(self, settings):
         """Return args, transforming --ignore, --only, and --globals args into a format luacheck understands."""
         args = super().build_args(settings)
-        print(args)
         try:
             index = args.index('--ignore')
             # Split the comma-separated arg after --ignore into separate elements
