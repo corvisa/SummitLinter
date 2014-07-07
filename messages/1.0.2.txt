@@ -1,0 +1,2 @@
+# SummitLinter v1.0.2
+* Modified what luacheck ignores by default to fix issue with default lua globals. You may need to delete the `"summitlinter"` entry in the `"linters"` section of SublimeLinter's user settings in order for this change to take effect.
