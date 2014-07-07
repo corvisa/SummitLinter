@@ -18,10 +18,10 @@ class SummitLinter(Linter):
     syntax = 'summit'
     tempfile_suffix = 'lua'
     defaults = {
-        '--ignore:,': '',
+        '--ignore:,': 'channel',
         '--only:,': '',
         '--limit=': None,
-        '--globals: ': 'channel,require',
+        '--globals: ': '',
     }
     comment_re = r'\s*-[-*]'
     inline_settings = ('ignore', 'limit', 'only', 'globals')
