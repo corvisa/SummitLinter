@@ -1,10 +1,10 @@
 SummitLinter
 ================================
 
-This linter plugin for [SublimeLinter][docs] provides an interface to [Corvisa Cloud, LLC's SummitEditor](https://github.com/corvisacloud/SummitEditor) through `luacheck`. It will be used with files that have the “__Lua (Summit)__” syntax.
+This linter plugin for [SublimeLinter][docs] provides an interface to [Corvisa LLC's SummitEditor](https://github.com/corvisa/SummitEditor) through `luacheck`. It will be used with files that have the “__Lua (Summit)__” syntax.
 
 ## Installation
-SublimeLinter 3 must be installed in order to use this plugin. If SublimeLinter 3 is not installed, please follow the instructions [here][installation]. SummitEditor must also be installed. If it is not installed, follow the [instructions](https://github.com/corvisacloud/SummitEditor/blob/master/README.md).
+SublimeLinter 3 must be installed in order to use this plugin. If SublimeLinter 3 is not installed, please follow the instructions [here][installation]. SummitEditor must also be installed. If it is not installed, follow the [instructions](https://github.com/corvisa/SummitEditor/blob/master/README.md).
 
 ### Linter installation
 Before using this plugin, you must ensure that `luacheck` is installed on your system. To install `luacheck`, follow the [instructions](https://github.com/mpeterv/luacheck/blob/master/README.md).
